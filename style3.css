@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    background: #262525;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding-inline: 2rem;
+    height: 15rem;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+    left: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 3.5rem;
+    font-weight: 500;
+
+}
+
+header img {
+    height: 14rem;
+}
+
+nav ul {
+    display: flex;
+    gap: 7rem;
+    list-style: none;
+}
+
+nav div {
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+    padding-left: 10rem;
+    padding-right: 3rem;
+}
+
+nav li:hover {
+    transform: scale(1.1);
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #a40000;
+    min-height: 270rem;
+    padding-top: 15rem;
+}
+
+.cultura {
+    width: 105rem;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+section {
+    background-color: #e6ddbc;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    border: 4px solid black;
+}
+section img {
+    width: 80rem;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    max-width: 80rem;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    font-weight: 500;
+}
+
+section h2 {
+    margin-bottom: 1rem;
+
+    font-size: 4rem;
+
+}

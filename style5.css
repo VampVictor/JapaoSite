@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: Poppins, sans-serif;
+    height: 100svh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(cidade.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+header {
+    background: #262525;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding-inline: 2rem;
+    height: 15rem;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+    left: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 3.5rem;
+    font-weight: 500;
+
+}
+
+header img {
+    height: 14rem;
+}
+
+nav ul {
+    display: flex;
+    gap: 7rem;
+    list-style: none;
+}
+
+nav div {
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+    padding-left: 10rem;
+    padding-right: 3rem;
+}
+
+nav li:hover {
+    transform: scale(1.1);
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+
+.container {
+    background: #e6ddbc;
+    width: 350px;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;     
+    border: 3px solid #000;
+    padding-bottom: 6rem;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+label {
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input {
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background: #fff;
+    font-size: 15px;
+}
+
+.botao {
+    display: block;
+    text-align: center;
+    padding: 12px;
+    background: #822626;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.botao:hover {
+    background: #822626;
+}

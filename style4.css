@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    background: #262525;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding-inline: 2rem;
+    height: 15rem;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+    left: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 3.5rem;
+    font-weight: 500;
+
+}
+
+header img {
+    height: 14rem;
+}
+
+nav ul {
+    display: flex;
+    gap: 7rem;
+    list-style: none;
+}
+
+nav div {
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+    padding-left: 10rem;
+    padding-right: 3rem;
+}
+
+nav li:hover {
+    transform: scale(1.1);
+}
+
+
+.titulo {
+    text-align: center;
+    padding: 30px 10px;
+}
+
+.titulo p {
+    font-size: 2rem;
+}
+
+.titulo h1 {
+    font-size: 4.5rem;
+    padding-bottom: 1.5rem;
+    font-weight: 400;
+}
+
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    padding-top: 4rem;
+    background: #e6ddbc;
+}
+
+
+
+main {
+    background: #e6ddbc;
+    min-height: calc(100svh - 9.8rem);
+    padding-block: 3rem;
+    text-align: center;
+    margin-top: 9.8rem;
+
+}
+
+.main-container {
+    max-width: 120rem;
+    margin: 0 auto;
+
+    section {
+        margin-bottom: 5rem;
+    }
+
+    h2 {
+        margin-bottom: 2rem;
+        font-size: 4rem;
+        font-weight: 350;
+    }
+
+    p {
+        max-width: 80rem;
+        margin: 0 auto;
+        line-height: 2.5rem;
+        font-size: 2.1rem;
+    }
+
+}
+
+main img {
+    width: 80rem;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
